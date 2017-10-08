@@ -5,5 +5,3 @@ node_modules
 .nuxt
 .vscode
 .DS_STORE
-coverage
-dist

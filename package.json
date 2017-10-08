@@ -1,44 +1,16 @@
 {
-  "name": "xui-module",
+  "name": "@nuxtjs/xui",
   "version": "0.0.5",
-  "description": "UI helper module",
   "license": "MIT",
   "contributors": [
     {
       "name": "Meta <l.szabatura@gmail.com>"
     }
   ],
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": "https://github.com/",
   "publishConfig": {
     "access": "public"
-  },
-  "scripts": {
-    "build": "nuxt-module",
-    "watch": "nuxt-module --watch",
-    "lint": "eslint lib src test",
-    "lint-fix": "eslint --fix lib src test",
-    "test": "NODE_ENV=test npm run build && npm run lint && jest",
-    "release": "standard-version && git push --follow-tags && npm publish",
-    "prepare": "npm run build"
-  },
-  "eslintIgnore": [
-    "*.template.*"
-  ],
-  "files": [
-    "lib",
-    "src",
-    "dist",
-    "templates"
-  ],
-  "jest": {
-    "testEnvironment": "node",
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "lib",
-      "src"
-    ]
   },
   "dependencies": {
     "animate.css": "^3.5.2",
@@ -47,8 +19,5 @@
     "mdi": "^2.0.46",
     "vue-in-viewport-directive": "^1.1.4",
     "vue-scrollactive": "^0.4.5"
-  },
-  "devDependencies": {
-    "nuxt-module-builder": "latest"
   }
 }
