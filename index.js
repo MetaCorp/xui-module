@@ -17,8 +17,7 @@ const defaultOptions = {
     active: true
   },
   'vue-headroom': {
-    active: true,
-    options: { ssr: false }
+    active: true
   },
 }
 
@@ -41,7 +40,8 @@ module.exports = function xui (moduleOptions) {
 
   options['vue-headroom'].active && this.addPlugin({
     src: resolve(__dirname, './plugins/vue-headroom.js'),
-    options: options['vue-headroom'].options
+    options: options['vue-headroom'].options,
+    ssr: false
   })
 }
 
