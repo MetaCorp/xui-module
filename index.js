@@ -35,7 +35,7 @@ module.exports = function xui (moduleOptions) {
   options['animate.css'].active && this.options.css.push('animate.css')
   // options['animate'].active && this.options.css.push('./css/animate.scss')
   // options['spacing'].active && this.options.css.push('./css/spacing.scss')
-  this.options.css.push('./css/test.css')
+  this.options.css.push('css/test.css')
 
   options['vue-in-viewport-directive'].active && this.addPlugin({
     src: resolve(__dirname, './plugins/vue-in-viewport-directive.js'),
