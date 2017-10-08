@@ -10,6 +10,12 @@ const defaultOptions = {
   'animate.css': {
     active: true
   },
+  'animate': {
+    active: true
+  },
+  'spacing': {
+    active: true
+  },
   'vue-in-viewport-directive': {
     active: true
   },
@@ -27,6 +33,8 @@ module.exports = function xui (moduleOptions) {
   options['bulma'].active && this.options.css.push('bulma/css/bulma.css')
   options['mdi'].active && this.options.css.push('mdi/css/materialdesignicons.min.css')
   options['animate.css'].active && this.options.css.push('animate.css')
+  options['animate'].active && this.options.css.push('./css/animate.scss')
+  options['spacing'].active && this.options.css.push('./css/spacing.scss')
 
   options['vue-in-viewport-directive'].active && this.addPlugin({
     src: resolve(__dirname, './plugins/vue-in-viewport-directive.js'),
