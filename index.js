@@ -51,10 +51,6 @@ module.exports = function xui (moduleOptions) {
     options: options['vue-headroom'].options,
     ssr: false
   })
-
-  this.options.build.plugins['postcss-custom-properties'] = {
-    warnings: false
-  }
 }
 
 module.exports.meta = require('./package.json')
