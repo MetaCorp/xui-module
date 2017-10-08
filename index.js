@@ -24,7 +24,7 @@ const defaultOptions = {
 module.exports = function xui (moduleOptions) {
   const options = Object.assign(defaultOptions, moduleOptions)
 
-  options['bulma'].active && this.options.css.push('bulma')
+  options['bulma'].active && this.options.css.push('bulma/css/bulma.css')
   options['mdi'].active && this.options.css.push('mdi/css/materialdesignicons.min.css')
   options['animate.css'].active && this.options.css.push('animate.css')
 
