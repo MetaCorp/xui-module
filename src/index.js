@@ -44,3 +44,5 @@ export default function module (moduleOptions) {
     options: options['vue-headroom'].options
   })
 }
+
+module.exports.meta = require('../package.json')
