@@ -1,6 +1,6 @@
 {
   "name": "xui-module",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "license": "MIT",
   "contributors": [
     {
@@ -20,7 +20,7 @@
     "vue-in-viewport-directive": "^1.1.4",
     "vue-scrollactive": "^0.4.5"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
     "webpack": "^3.6.0"
