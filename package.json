@@ -41,7 +41,12 @@
     ]
   },
   "dependencies": {
-
+    "animate.css": "^3.5.2",
+    "bulma": "^0.5.3",
+    "headroom.js": "^0.9.4",
+    "mdi": "^2.0.46",
+    "vue-in-viewport-directive": "^1.1.4",
+    "vue-scrollactive": "^0.4.5"
   },
   "devDependencies": {
     "nuxt-module-builder": "latest"
