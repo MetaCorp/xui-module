@@ -22,7 +22,7 @@ const defaultOptions = {
   },
 }
 
-export default function xui (moduleOptions) {
+module.exports = function xui (moduleOptions) {
   const options = Object.assign(defaultOptions, moduleOptions)
 
   options['bulma'].active && this.options.css.push('bulma')
