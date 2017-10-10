@@ -28,7 +28,9 @@ This module install several libraries to make designing a website with Vue and N
 
 ```sh
 yarn add xui-module
-
+```
+or
+```sh
 npm install xui-module --save
 ```
 
