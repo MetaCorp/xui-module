@@ -8,13 +8,20 @@
 
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
-> UI helper module
+> Light module to help design website with Nuxt
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
 ## Features
 
-The module features
+This module install several libraries to make designing a website with Vue and Nuxt easy, including:
+
+- [Bulma]{https://github.com/jgthms/bulma} [(website)]{http://bulma.io/}
+- [Animate.css]{https://github.com/daneden/animate.css/} [(website)]{https://daneden.github.io/animate.css/}
+- [Material Design Icons]{https://github.com/google/material-design-icons} [(website)]{https://material.io/icons/}
+- [Vue-in-viewport-directive]{https://github.com/BKWLD/vue-in-viewport-directive}
+- [Vue-scrollactive]{https://github.com/eddiemf/vue-scrollactive} [(demo)]{https://eddiemf.github.io/vue-scrollactive/examples/example-1.html}
+- [Headroom.js]{https://github.com/WickyNilliams/headroom.js/} [(website)]{http://wicky.nillia.ms/headroom.js/} [(playground)]{http://wicky.nillia.ms/headroom.js/playroom/}
 
 ## Setup
 - Add `xui-module` dependency using yarn or npm to your project
