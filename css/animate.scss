@@ -3,7 +3,7 @@
 :not(.in-viewport)>*>.inview2,
 :not(.in-viewport)>*>*>.inview3,
 :not(.in-viewport)>*>*>*>.inview4 {
-  display: hidden!important;
+  visibility: hidden;
   animation-name: none;
 }
 
