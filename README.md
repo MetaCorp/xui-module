@@ -8,7 +8,8 @@
 
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
-> Light module to help design websites with Nuxt
+> Light module to help design websites with Nuxt. [example](https://github.com/MetaCorp/nuxt-xui)
+
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -48,9 +49,20 @@ npm install xui-module --save
 }
 ```
 
-## Usage
+- If needed, add sass-loader
 
-Module Description
+```sh
+yarn add sass-loader node-sass
+```
+or
+```sh
+npm install sass-loader node-sass --save-dev
+```
+
+
+<!-- ## Usage
+
+Xui-module gives you access to two new directives -->
 
 ## License
 
