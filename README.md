@@ -60,9 +60,34 @@ npm install sass-loader node-sass --save-dev
 ```
 
 
-<!-- ## Usage
+## Module Options
 
-Xui-module gives you access to two new directives -->
+You can parametrize Xui-module with these variables:
+
+- 'bulma'
+- 'mdi'
+- 'animate.css'
+- 'animate'
+- 'spacing'
+- 'vue-in-viewport-directive'
+- 'vue-scrollactive'
+- 'vue-headroom'
+
+example:
+
+```js
+{
+  'bulma': {
+    options: { /* bulma options */ }
+  },
+  'mdi': {
+    active: false // Do not load Material Design Icons
+  },
+  'vue-scrollactive': {
+    ssr: false // Turn off ssr for vue-scrollactive
+  }
+}
+```
 
 ## License
 
