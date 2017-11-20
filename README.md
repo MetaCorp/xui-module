@@ -19,6 +19,7 @@ This module install several libraries to make designing a website with Vue and N
 
 + [Bulma](https://github.com/jgthms/bulma) ([website](http://bulma.io/))
 + [Animate.css](https://github.com/daneden/animate.css/) ([website](https://daneden.github.io/animate.css/))
++ [Hover.css](https://github.com/IanLunn/Hover) ([website](http://ianlunn.github.io/Hover/))
 + [Material Design Icons](https://github.com/google/material-design-icons) ([website](https://material.io/icons/))
 + [Headroom.js](https://github.com/WickyNilliams/headroom.js/) ([website](http://wicky.nillia.ms/headroom.js/)) ([playground](http://wicky.nillia.ms/headroom.js/playroom/))
 + [Vue-scrollactive](https://github.com/eddiemf/vue-scrollactive) ([demo](https://eddiemf.github.io/vue-scrollactive/examples/example-1.html))
@@ -67,6 +68,7 @@ You can parametrize Xui-module with these variables:
 - 'bulma'
 - 'mdi'
 - 'animate.css'
+- 'hover.css'
 - 'animate'
 - 'spacing'
 - 'vue-in-viewport-directive'

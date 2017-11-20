@@ -10,6 +10,9 @@ const defaultOptions = {
   'animate.css': {
     active: true
   },
+  'hover.css': {
+    active: true
+  },
   'animate': {
     active: true
   },
@@ -32,7 +35,8 @@ module.exports = function xui (moduleOptions) {
 
   options['bulma'].active && this.options.css.push('bulma')
   options['mdi'].active && this.options.css.push('mdi/css/materialdesignicons.min.css')
-  options['animate.css'].active && this.options.css.push('animate.css')
+  options['animate.css'].active && this.options.css.push('animate.css/animate.min.css')
+  options['hover.css'].active && this.options.css.push('hover.css/css/hover-min.css')
   options['animate'].active && this.options.css.push('xui-module/css/animate.scss')
   options['spacing'].active && this.options.css.push('xui-module/css/spacing.scss')
 
