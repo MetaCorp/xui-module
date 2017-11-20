@@ -8,7 +8,7 @@
 
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
-> Light module to help design websites with Nuxt. [example](https://github.com/MetaCorp/nuxt-xui)
+> Light module to help design websites with Nuxt. [demo](https://hidden-earth-46741.herokuapp.com/) [source](https://github.com/MetaCorp/nuxt-xui)
 
 
 [📖 **Release Notes**](./CHANGELOG.md)
